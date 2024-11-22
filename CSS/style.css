@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kalnia+Glaze:wght@100..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+SAS:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+}
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(154, 4, 4, 0.7));
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+}
+.navbar-dark .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #fffcfc;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-toggler{
+    padding: 1px 5 px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+.services .card-boby i{
+    font-size: 50px;
+}
+.team .card-body i{
+    font-size: 20px;
+}
+
+.general {
+    padding: 50px 0;
+    text-align: center;
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1{
+    background-image: url(https://i.pinimg.com/736x/a6/c7/38/a6c738dbcdc81cb2edcd755ad1cf1460.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.general-2{
+    background-image: url(https://i.pinimg.com/236x/fe/75/4d/fe754df0d84264432ac043bf97591212.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.general-3{
+    background-image: url(https://i.pinimg.com/236x/d5/5e/ad/d55ead06a67429c08497454051a3ff7f.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.services {
+    background-image: linear-gradient(rgba(18, 17, 17, 0.7),
+            rgba(178, 165, 165, 0.7)),
+        url(https://i.pinimg.com/736x/13/75/4b/13754b391ee0238e4d0f1896116629fc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+body{
+    background-color: rgb(12, 9, 9);
+}
+
+h2{
+    background-image: url(https://i.pinimg.com/736x/e9/5d/e2/e95de2dcf1c4d8880784be84d051cb84.jpg);
+    background-size: 100%;
+    color:#ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 2em;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 p{
+    color: #ffffff;
+}
+
+.blog img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.about-text p {
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+.team {
+    background: transparent; /* Fondo transparente para la página de equipo */
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    border: none; 
+    color: white;
+}
+.service-item, .team-member, .testimonial {
+    background: transparent;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i, .team-member img {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team-member img {
+    max-width: 180px;
+    border-radius: 80%;
+    margin-bottom: 2rem;
+}
+
+.team-member h3 {
+    margin: 0.5rem 0;
+}
+
+.team-member p {
+    color: #fffefe;
+}
+
+form input, form textarea{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 4px solid #126380;
+    border-radius: 4px;
+}
+input{
+    accent-color: rgb(243, 153, 36);
+}
+
+/* para el whatsapp*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#a72618;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #fffcfc;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #d37925;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.info-button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #e63946;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #e4c31b;
+    transform: scale(1.1);
+}
+
+
+/*Estilos de la galeria*/
+
+.galeria {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.galeria li {
+	margin: 10px;
+}
+
+.galeria img {
+	width: 280px;
+	height: 500px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+	display: none;
+}
+
+.modal:target {
+	
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal h3 {
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagen {
+	width: 100%;
+	height: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen a {
+	color: #ececec;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img {
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fefefe;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	display: block;
+	background: #ffffff;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+@media(max-width: 757px ){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-item{
+        height: 70vh;
+    }
+    .w-100{
+        height: 70vh;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    .about-text{
+        padding: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .carousel-caption h5 {
+        font-size: 28px; /* Reducir tamaño del texto */
+    }
+    .carousel-caption p {
+        width: 80%; /* Ajustar ancho del texto */
+        font-size: 14px; /* Reducir tamaño de fuente */
+    }
+
+    .general {
+        padding: 20px 0; /* Reducir padding */
+        text-align: center; /* Asegurar alineación centrada */
+    }
+    .general-content {
+        flex-direction: column; /* Hacer que los elementos sean verticales */
+        align-items: center;
+    }
+    .general-1, .general-2, .general-3 {
+        height: 300px; /* Ajustar altura */
+        padding: 100px 20px; /* Reducir padding */
+    }
+    .navbar-nav a {
+        font-size: 12px; /* Reducir tamaño de texto del menú */
+    }
+    .team-member img {
+        max-width: 120px; /* Reducir tamaño de imágenes del equipo */
+    }
+    .team-member h3 {
+        font-size: 18px; /* Ajustar tamaño de fuente */
+    }
+    .galeria img {
+        width: 100%; /* Hacer las imágenes de galería más flexibles */
+        height: auto; /* Ajustar altura proporcionalmente */
+    }
+    .blog-content {
+        flex-direction: column; /* Cambiar disposición a vertical */
+    }
+    .blog img {
+        width: 100%; /* Ajustar ancho de las imágenes */
+        height: auto;
+    }
+    .info-button {
+        font-size: 14px; /* Reducir tamaño de texto */
+        padding: 8px 15px; /* Reducir padding */
+    }
+    .float {
+        width: 50px; /* Reducir tamaño del botón flotante */
+        height: 50px;
+        bottom: 20px; /* Ajustar posición */
+        right: 20px;
+    }
+    .float .my-float {
+        font-size: 24px; /* Reducir icono */
+    }
+    .modal .imagen img {
+        width: 90%; /* Hacer la imagen más pequeña */
+        height: auto;
+    }
+    .modal h3 {
+        font-size: 24px; /* Ajustar tamaño del título */
+    }
+
+        /* Ajustes generales */
+        .section-padding {
+            padding: 20px 10px; /* Reducir padding en secciones */
+        }
+    
+        /* Formularios */
+        form input, form textarea {
+            width: 100%; /* Hacer que los campos ocupen el ancho completo */
+            font-size: 14px; /* Reducir tamaño de fuente */
+            padding: 10px; /* Asegurar padding suficiente */
+        }
+    
+        #servicio {
+            width: 100%; /* Ajustar el ancho del dropdown */
+        }
+    
+        textarea {
+            height: 150px; /* Ajustar altura del textarea */
+        }
+    
+        input[type="submit"] {
+            width: 100%; /* Botón al 100% de ancho */
+            font-size: 16px;
+        }
+    
+        /* Texto y encabezados */
+        .section-header h2 {
+            font-size: 24px; /* Reducir tamaño de títulos */
+        }
+    
+        .section-header p {
+            font-size: 14px; /* Reducir tamaño de párrafos */
+        }
+    
+        /* Video */
+        iframe {
+            width: 100%; /* Ajustar ancho del video */
+            height: auto; /* Ajustar altura automáticamente */
+            margin-top: 15px;
+        }
+    
+        /* Ajustes para elementos específicos */
+        .about-text h2 {
+            font-size: 20px;
+        }
+    
+        .about-text p {
+            font-size: 14px;
+        }
+    
+        /* Footer */
+        footer p {
+            font-size: 14px;
+        }
+     }
+
